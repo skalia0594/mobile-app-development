@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         alignItems : 'center'
     },
     timerSize: {
-        fontSize : 100
+        fontSize : 80
     },
     constantSize: {
         fontSize : 50

@@ -21,10 +21,10 @@ export default class App extends React.Component {
       });
   }
   start = () => {
-      let workTime = (this.state.workTimeMinutes !== "" ? String(Number(this.state.workTimeMinutes) * 60) : 0 )
+      let workTime = (this.state.workTimeMinutes !== "" ? Number(this.state.workTimeMinutes) * 60 : 0 )
                     + (this.state.workTimeSeconds !== "" ? Number(this.state.workTimeSeconds) : 0) ;
       
-      let breakTime = (this.state.breakTimeMinutes !== "" ? String(Number(this.state.breakTimeMinutes) * 60) : 0 )
+      let breakTime = (this.state.breakTimeMinutes !== "" ? Number(this.state.breakTimeMinutes * 60) : 0 )
                     + (this.state.breakTimeSeconds !== "" ? Number(this.state.breakTimeSeconds) : 0) ;
       
       if( workTime === 0) workTime = 20; // default
