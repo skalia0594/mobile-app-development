@@ -30,7 +30,7 @@
       "package": "com.skalia.moviesearch",
       "versionCode": 1
     },
-    "description": "",
+    "description": "React Native App(.apk), search the details like ratings, actors, plot, length of any movie",
     "githubUrl": "https://github.com/me50/skalia0594/tree/mobile50/projects/2020/x/2/project2"
   }
 }
