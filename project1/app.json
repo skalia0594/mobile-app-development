@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "project1",
-    "slug": "project1",
+    "name": "Pomodoro Timer",
+    "slug": "pomodorotimer",
     "platforms": [
       "ios",
       "android",
@@ -9,7 +9,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/pomodoro.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -23,6 +23,12 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.skalia.pomodoroTimer",
+      "versionCode": 1
+    },
+    "description": "React Native App, timer to breakdown work into intervals separated by short breaks",
+    "githubUrl": "https://github.com/me50/skalia0594/tree/mobile50/projects/2020/x/1/project1"
   }
 }
